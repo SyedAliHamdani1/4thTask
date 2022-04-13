@@ -1,1 +1,73 @@
- https://ropsten.etherscan.io/address/0xa9e5C2C7C44220aAEB2DD992aEa68ad2b73c637A#code
+ 
+Starting migrations...
+======================
+> Network name:    'ropsten'
+> Network id:      3
+> Block gas limit: 8000000 (0x7a1200)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x86b07a6d35024a598579fb88ffc18445b994986a85fde92802f0c347f9611d4c
+   > Blocks: 2            Seconds: 21
+   > contract address:    0x2cd38757f31511b81aea271b1F0d01908d919009
+   > block number:        12190445
+   > block timestamp:     1649837592
+   > account:             0x4f7959a3191e2505275c8b16c6228A64D3178bbE
+   > balance:             1.077086498689755196
+   > gas used:            248204 (0x3c98c)
+   > gas price:           22.259932617 gwei
+   > value sent:          0 ETH
+   > total cost:          0.005525004315269868 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+   > confirmation number: 1 (block: 12190446)
+   > confirmation number: 2 (block: 12190447)
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------     
+   > Total cost:     0.005525004315269868 ETH
+
+
+2_SaleToken.js
+==============
+
+   Replacing 'SaleToken'
+   ---------------------
+   > Blocks: 2            Seconds: 93
+   > contract address:    0xfAA18b0F9793cC17dfc57Ad63AA619C27D26f711
+   > block number:        12190451
+   > block timestamp:     1649837875
+   > account:             0x4f7959a3191e2505275c8b16c6228A64D3178bbE
+   > balance:             1.029678802158883025
+   > gas used:            1807940 (0x1b9644)
+   > gas price:           25.579729998 gwei
+   > value sent:          0 ETH
+   > total cost:          0.04624661705258412 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+   > confirmation number: 1 (block: 12190453)
+   > confirmation number: 2 (block: 12190454)
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.04624661705258412 ETH
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.051771621367853988 ETH
+
+
+
+
+Verifying SaleToken
+Pass - Verified: https://ropsten.etherscan.io/address/0xfAA18b0F9793cC17dfc57Ad63AA619C27D26f711#code
+
